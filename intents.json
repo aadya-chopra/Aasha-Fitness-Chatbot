@@ -1,0 +1,83 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "greetings", "sup", "what's up", "hey", "yo"],
+            "responses": ["hi", "hey", "nods", "hi there", "hello", "I am glad! You are talking to me"]
+        },
+        {
+            "tag": "bmi",
+            "patterns": ["calculate my bmi","bmi","what is my bmi"],
+            "responses": ["Sure, please provide your height in meters and weight in kilograms."]
+        },
+        {
+            "tag": "overweight",
+            "patterns": ["I am overweight","overweight"],
+            "responses": ["It's important to maintain a healthy weight. I can provide you with diet and exercise tips."]
+        },
+        {
+            "tag": "underweight",
+            "patterns": [
+              "I am underweight",
+              "underweight"
+            ],
+            "responses": [
+              "Gaining weight in a healthy way is crucial. I can help with nutrition advice and exercise plans."]
+        },
+        {
+            "tag": "definition_fitness",
+            "patterns": ["what is fitness", "define fitness", "explain fitness"],
+            "responses": ["Fitness refers to the condition of being physically fit and healthy. It involves the ability to perform aspects of sports, occupations, and daily activities without undue fatigue. Fitness is achieved through proper nutrition, physical exercise, and sufficient rest."]
+        },
+        {
+            "tag": "definition_exercise",
+            "patterns": ["what is exercise", "define exercise", "explain exercise"],
+            "responses": ["Exercise is any bodily activity that enhances or maintains physical fitness and overall health. It is performed for various reasons, including strengthening muscles and the cardiovascular system, honing athletic skills, weight loss or maintenance, and enjoyment."]
+        },
+        {
+            "tag": "Types_of_exercise",
+            "patterns": ["what are the types of exercise", "types of exercise"],
+            "responses": ["There two types of exercises ,outddors and indoors. Which one would you like to know?"]
+        },
+        {
+            "tag": "types_exercise_outdoor",
+            "patterns": ["types of outdoor exercises", "outdoor exercises", "what are some outdoor exercises","outdoor exercise"],
+            "responses": ["Outdoor exercises include running, jogging, cycling, hiking, swimming, walking, and various sports such as soccer and basketball."]
+        },
+        {
+            "tag": "types_exercise_indoor",
+            "patterns": ["types of indoor exercises", "indoor exercises", "what are some indoor exercises","indoor exercise"],
+            "responses": ["Indoor exercises include yoga, pilates, treadmill or stationary bike workouts, weight lifting, aerobics, Zumba, and bodyweight exercises such as push-ups and sit-ups."]
+        },
+        {
+            "tag": "strength_training_upper",
+            "patterns": ["upper body strength training", "upper body exercises", "what are some upper body exercises"],
+            "responses": ["Upper body strength training exercises include bench press, push-ups, dumbbell flyes for the chest; pull-ups, deadlifts, bent over rows for the back; shoulder press, lateral raises, front raises for the shoulders; and bicep curls, tricep dips, hammer curls for the arms."]
+        },
+        {
+            "tag": "strength_training_lower",
+            "patterns": ["lower body strength training", "lower body exercises", "what are some lower body exercises"],
+            "responses": ["Lower body strength training exercises include squats, lunges, leg press for the legs; hip thrusts, glute bridges, Bulgarian split squats for the glutes; and calf raises, seated calf raises for the calves."]
+        },
+        {
+            "tag": "strength_training_core",
+            "patterns": ["core strength training", "core exercises", "what are some core exercises"],
+            "responses": ["Core strength training exercises include planks, crunches, leg raises for the abs; and Russian twists, side planks, bicycle crunches for the obliques."]
+        },
+        {
+            "tag": "nutrition_weight_gain",
+            "patterns": ["nutrition for weight gain", "how to gain weight", "diet for weight gain"],
+            "responses": ["Nutrition for weight gain includes consuming a caloric surplus, high protein foods, healthy fats, carbohydrates, and frequent meals."]
+        },  
+        {
+            "tag": "fitness_plan",
+            "patterns": ["plan for fitness workout", "can you create a plan", "weekly workouts"],
+            "responses": ["Monday-Upper body training,Tuesday- Lower body, Wednesday -core training; However you can always extendvyour workout plan depending upon numberofdays you have. "]
+        },
+        {
+            "tag": "nutrition_weight_loss",
+            "patterns": ["nutrition for weight loss", "how to lose weight", "diet for weight loss","plan for weight loss"],
+            "responses": ["Nutrition for weight loss includes consuming a caloric deficit, high protein foods, low carbohydrates, healthy fats, hydration, and fiber-rich foods."]
+        }
+    ]
+}
